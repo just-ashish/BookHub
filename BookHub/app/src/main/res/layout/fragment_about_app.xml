@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/book_app_icon_foreground"
+    tools:context=".fragment.AboutAppFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtAboutApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#546e7a"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/txtParagraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app is all about books that we have. In this app, you will find all the latest books.\nThis app was developed for project purpose only.\nThank You 1"
+        android:layout_below="@+id/txtAboutApp"
+        android:textColor="#90a4ae"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>
